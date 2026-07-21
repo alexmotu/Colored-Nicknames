@@ -5,7 +5,7 @@ plugins {
 // Stonecutter shares this build script across every version node.
 // `sc.current` is the node currently being built (e.g. 1.21.1 or 26.1).
 version = "${property("mod.version")}+${sc.current.version}"
-base.archivesName = property("mod.id") as String
+base.archivesName = "colored-nicknames"
 
 // Minecraft 26.x+ ships without obfuscation — no mappings file exists.
 // All earlier 1.21.x versions still require official Mojang mappings.
