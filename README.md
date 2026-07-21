@@ -3,6 +3,7 @@
 [![Modrinth Version](https://img.shields.io/modrinth/v/colored-nicknames?logo=modrinth&color=008800)](https://modrinth.com/mod/colored-nicknames)
 [![Modrinth Game Versions](https://img.shields.io/modrinth/game-versions/colored-nicknames?logo=modrinth&color=008800)](https://modrinth.com/mod/colored-nicknames)
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/colored-nicknames?logo=modrinth&color=008800)](https://modrinth.com/mod/colored-nicknames)
+[![CurseForge Downloads](https://cf.way2muchnoise.eu/full_1619489_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/colored-nicknames)
 [![Github Badge](https://img.shields.io/badge/github-colored--nicknames-white?logo=github)](https://github.com/alexmotu/colored-nicknames)
 ![Available for Fabric](https://img.shields.io/badge/available_for-fabric-_?color=%23dbd0b4)
 
@@ -27,7 +28,7 @@ A client-side Fabric mod for Minecraft that lets you customize player nicknames 
 ## How to Install
 
 1. Install Fabric Loader (https://fabricmc.net/wiki/install)
-2. Download Colored Nicknames from [Modrinth](https://modrinth.com/mod/colored-nicknames)
+2. Download Colored Nicknames from [Modrinth](https://modrinth.com/mod/colored-nicknames) or [CurseForge](https://www.curseforge.com/minecraft/mc-mods/colored-nicknames/preview)
 3. Put the downloaded Colored Nicknames JAR and [Fabric API](https://modrinth.com/mod/fabric-api) into your mods folder (`.minecraft/mods`)
 4. Run the game
 
