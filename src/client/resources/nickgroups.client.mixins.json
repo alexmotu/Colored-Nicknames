@@ -1,0 +1,20 @@
+{
+	"required": true,
+	"package": "com.example.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"plugin": "com.example.client.mixin.NickgroupsClientMixinPlugin",
+	"mixins": [
+		"ExampleClientMixin",
+		"PlayerInfoMixin",
+		"PlayerMixin",
+		"PlayerTabOverlayMixin",
+		"LocatorBarRendererMixin",
+		"LivingEntityRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

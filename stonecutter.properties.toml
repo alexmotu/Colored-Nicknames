@@ -1,0 +1,38 @@
+# Centralized, version-aware properties for Stonecutter.
+# See https://stonecutter.kikugie.dev/wiki/config/properties#centralized-properties
+mod.id = "nickgroups"
+mod.name = "Colored Nicknames"
+mod.group = "com.example"
+mod.version = "1.0.0"
+
+deps.fabric_loader = "0.19.3"
+loomx.loom_version = "1.17-SNAPSHOT"
+
+["1.21.1"]
+# Covers 1.21 - 1.21.8 (old input system)
+mod.mc_compat = ">=1.21 <=1.21.8"
+mod.mc_releases = ["1.21", "1.21.1", "1.21.2", "1.21.3", "1.21.4", "1.21.5", "1.21.6", "1.21.7", "1.21.8"]
+
+deps.fabric_api = "0.102.0+1.21.1"
+
+["1.21.9"]
+# Covers 1.21.9 - 1.21.11 (new MouseButtonEvent/KeyEvent input system)
+mod.mc_compat = ">=1.21.9 <=1.21.11"
+mod.mc_releases = ["1.21.9", "1.21.10", "1.21.11"]
+
+deps.fabric_api = "0.134.1+1.21.9"
+
+["26.1"]
+# Covers 26.1, 26.1.1, 26.1.2 (unobfuscated, new versioning scheme)
+mod.mc_compat = ">=26.1 <=26.1.2"
+mod.mc_releases = ["26.1", "26.1.1", "26.1.2"]
+
+deps.fabric_api = "0.155.0+26.1.2"
+
+["26.2"]
+# Covers 26.2
+mod.mc_compat = ">=26.2"
+mod.mc_releases = ["26.2"]
+
+deps.fabric_api = "0.155.0+26.2"
+

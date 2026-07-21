@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "nickgroups",
+	"version": "${version}",
+	"name": "Colored Nicknames",
+	"description": "Local custom player nickname formatting groups",
+	"authors": [
+		"alexmotu"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/alexmotu/nickgroups"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/nickgroups/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.NickgroupsMod"
+		],
+		"client": [
+			"com.example.client.NickgroupsModClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "nickgroups.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "${minecraft}",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
