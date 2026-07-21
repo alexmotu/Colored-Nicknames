@@ -19,6 +19,7 @@ A client-side Fabric mod for Minecraft that lets you customize player nicknames 
 * **Preserve Team Prefixes**: Keeps server-side team prefixes and suffixes intact while applying custom colors only to the player name.
 * **Overhead Name Tag Hiding**: Option to hide overhead name tags for players who are not assigned to any of your custom groups.
 * **Tab List Sorting**: Automatically groups and prioritizes configured players at the top of the tab list.
+* **Groups in Locator**: Hides players who are not in any of your custom groups from the Locator Bar HUD.
 * **In-Game Editor**: A simple and clean GUI to manage all groups, players, and formatting settings. The default keybind to open the editor is **`N`**.
 
 ---
