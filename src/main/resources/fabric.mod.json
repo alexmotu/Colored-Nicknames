@@ -9,9 +9,9 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/alexmotu/nickgroups"
+		"sources": "https://github.com/alexmotu/colored-nicknames"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/nickgroups/icon.png",
 	"environment": "*",
 	"entrypoints": {
